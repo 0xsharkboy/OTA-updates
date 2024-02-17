@@ -1,8 +1,113 @@
 [
    {
       "brand": "Samsung",
+      "codename": "beyond0lte",
+      "name": "Samsung Galaxy S10e",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "beyond1lte",
+      "name": "Samsung Galaxy S10",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
       "codename": "beyond2lte",
       "name": "Samsung Galaxy S10+",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "beyondx",
+      "name": "Samsung Galaxy S10 5g",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "f62",
+      "name": "Samsung Galaxy F62",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "d1",
+      "name": "Samsung Galaxy Note10",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "d2s",
+      "name": "Samsung Galaxy Note10+",
+      "supported_versions": [
+         {
+            "device_group": "",
+            "maintainer_name": "Achille (0xSharkBoy)",
+            "maintainer_url": "https://xdaforums.com/m/0xsharkboy.12237521/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "d2x",
+      "name": "Samsung Galaxy Note10+ 5g",
       "supported_versions": [
          {
             "device_group": "",
