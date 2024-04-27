@@ -1,0 +1,1097 @@
+=======================
+     2024/04/27
+=======================
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond0lte/commits/udc
+
+dd1d749 beyond0lte: Correct battery capacity overlay
+d3ef4b8 beyond0lte: Lower handset gain a bit
+c8d68d0 beyond0lte: Improve mic quality
+bb93556 beyond0lte: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond1lte/commits/udc
+
+3348f02 beyond1lte: Correct battery capacity overlay
+4b638e3 beyond1lte: Lower handset gain a bit
+8b92ddf beyond1lte: Improve mic quality
+337f93d beyond1lte: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond2lte/commits/udc
+
+72003a1 beyond2lte: Remove empty speaker sections from power_profile
+ac33ab3 beyond2lte: Correct battery capacity overlay
+95f96a2 beyond2lte: Lower handset gain a bit
+209d5cf beyond2lte: Improve mic quality
+6e45146 beyond2lte: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyondx/commits/udc
+
+789333c beyondx: Update power_profile from stock
+35982c5 beyondx: Correct battery capacity overlay
+20a5037 beyondx: Lower handset gain a bit
+e639add beyondx: Improve mic quality
+4aa69e8 beyondx: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d1/commits/udc
+
+1f01cbe d1: Correct battery capacity overlay
+53c75ff d1: Lower handset gain a bit
+5f31459 d1: Improve mic quality
+9ad3709 d1: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d2s/commits/udc
+
+8b02947 d2s: Correct battery capacity overlay
+a582f1e d2s: Lower handset gain a bit
+5c7a5b6 d2s: Improve mic quality
+9af32f7 d2s: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d2x/commits/udc
+
+b1c421d d2x: Correct battery capacity overlay
+d236cb9 d2x: Lower handset gain a bit
+e29334a d2x: Improve mic quality
+cc02c18 d2x: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_exynos9820-common/commits/udc
+
+5e479e7 exynos9820: overlay: SystemUI: Reduce max notif icons on aod *Prevents notif icons from taking all the space on aod
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_f62/commits/udc
+
+7db4f38 f62: Correct battery capacity overlay
+4654eec f62: Set TARGET_PHONE_LINK_SUPPORTED to false
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+423c4eee6fbd fwb: silence fs-verity exceptions
+
+
+=======================
+     2024/04/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_google_gs-common/commits/lineage-21
+
+a9d1fe5 modem: Erase /data/vendor/slog
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+773b035987bc SystemUI: Disable dagger.fastInit option
+2aaf9a179e50 Fix NPE in SystemUI
+fc80b8a48443 SystemUI: RecordingService: Toast for filesize limit
+12f08395e443 SystemUI: screenrecord: Add a medium quality option
+1dc0359dc681 SystemUI: screenrecord: Also remember share mode selection
+028142d8daa8 Fix unbind service error for MusicFxHelper
+ab93a8ff9e38 Use encoder capabilities for determining screen recording size
+ee23c8f08db5 Fix incorrect text shown at PUK lock screen
+fefc3446f7a5 SystemUI: Handle the SIM_STATE_NOT_READY state
+ca2b59c1e6be Make empty modem activity info as valid
+47e2d30810ec Textutils: Optimize writeToParcel performance
+06c15a9fd0c7 SettingsLib: Fix crash when checking emergency gesture state
+50ba6f39986e BiometricService: put the mthod of resetLockoutFor into handler when binder called and keep thread-safe in RingBuffer.
+e691640cd2ce Enable reuse of LinearBlock for during secure playback
+c7335043bde3 SystemUI: Fix NPEs when posting notifications
+3518722063a3 Add DeskClock to hiddenapi whitelist
+a59c06c171f8 Cache MemoryIntArray size
+077306d657e0 Don't update OverScroller fling state if improper time passed
+8b7bdb0141ce SystemUI: Introduce wifi standard icon feature [1/2]
+e93faa5249ad Fingerprint authentication vibration [1/2]
+1555a2ac9a67 Revert "SystemUI: Add left padding for keyguard slices"
+7a54d6356a4c SystemUI: fix SliceView layout
+7bc9cc851d2f base: Add a toggle for secure tiles on keyguard [1/2]
+70efc14873d7 fixup! SystemUI: Require unlocking to use sensitive QS tiles
+0aad5c178f95 SystemUI: Require unlocking to use sensitive QS tiles
+632eed5c4019 base: Allow turning on WiFi/Bluetooth when pressing the tiles [1/2]
+58eb3c4229d9 Island: Resolve notification contents
+f4e9ce7b4f27 SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+eabbbe5f43fa SystemUI: allow non privilaged plugins
+a231d564c24f Revert "Add AppOps listening to STService"
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+204684c71145 battery_v2: Use fg_fullcapnom for charge_full
+5a3b4fcb3be8 ARM64: boot: dts: samsung: Correct battery_full_capacity
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+8668c0a manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+34cef09e30f New translations evolution_strings.xml (Turkish)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b0a37c5d evolution: Add required configs for Pixels
+33984e56 common: Automatically set `TARGET_IS_PIXEL` for supported all Pixels
+
+* Repository: https://git.mainlining.org/EvolutionX/vendor_gms/commits/refs/heads/udc
+
+37529f6 packages: Add guard for AICorePrebuilt and DevicePersonalizationPrebuiltPixel2022
+
+
+=======================
+     2024/04/25
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_google_gs-common/commits/lineage-21
+
+682713d fixup! Disable userdebug diagnostics
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond0lte/commits/udc
+
+009dcde beyond0lte: Update blobs from G970FXXSGHWC2
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond1lte/commits/udc
+
+0dec6b1 beyond1lte: Update blobs from G973FXXSGHWC2
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyond2lte/commits/udc
+
+23a1f13 beyond2lte: Update blobs from G975FXXSGHWC2
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_beyondx/commits/udc
+
+fe9d4ef beyondx: Update blobs from G977BXXSEHWC2
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d1/commits/udc
+
+2a07df3 d1: Update blobs from N970FXXS9HWHA
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d2s/commits/udc
+
+4e3a6b8 d2s: Update blobs from N975FXXS9HWHA
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_d2x/commits/udc
+
+c1392ce d2x: Update blobs from N976BXXS9HWHB
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_exynos9820-common/commits/udc
+
+8a697dc exynos9820-common: Update blobs from N975FXXS9HWHA
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_device_samsung_f62/commits/udc
+
+72f3724 f62: Update blobs from E625FDDS5CXA3
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sm8150
+
+a5102d942 audio_amplifier: Change the enable amplifier function location
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+798285936a4 Settings: Add preference for KEY_MIN_REFRESH_RATE
+78b9ac87926 Settings: Add peak refresh rate list preference
+390d3f08359 Settings: Import settings from pixel-fw
+8da8b84a36c Settings: Define android manifest
+59c7f146e6d Settings: Replace android:name for SettingsGoogle
+2738e181ec7 Settings: fix app lock allow biometric toggle ignored (always on)
+66c8521d8cc Settings: AppLock: Update for kotlin errors
+618e3688885 Settings: Don't make app lock settings searchable
+10df61da8d0 Settings: Let app lock use face unlock
+0445ef720ef Settings: Add app lock settings for alternate security settings provider
+74d3384b7cc Settings: Add app lock summary for 0 protected apps
+a450d62bf2e AppLock: Slightly bigger icon size
+81425898c3a Settings: Update AppLock API
+0053d514fe3 Settings: Allow locking all apps visible in launcher
+5f7cfd78a72 Settings: Introduce App Lock [3/4]
+f93675a704d Settings: VolumeMusicControl: Use new material-you illustration preference
+c30e5a83d33 Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+9adf18d3ce9 Settings: Move adb root toggle and make it independent
+4ca996180ff Settings: Disable adb root if developer options are disabled
+ec011545e8f Settings: Migrate to SwitchPreferenceCompat, SelectorWithWidgetPreference and CompoundButton.OnCheckedChangeListener
+875602a8106 Fix SMS and Calls preference summary displays empty.
+bd5f0197460 Update PhoneLink 14-3 Settings change
+b83b96cfbf3 Settings: Remove dividers in Network & Internet
+dba479e48f0 Settings: Add icon for emergency broadcasts
+37107d4df62 Disable Navbar radius customization if hint disabled
+c9a5bcb3247 Refactor AppPicker page to adopt Settings main theme
+62fc5ca15ec Settings: Import missing Face Unlock animation
+76ea46d8add Fix-up starting style&wallpaper from search
+5eb48525003 Settings: Add Game Space support
+6e27d2fbdfb Bluetooth timeout feature
+65b6793ecbe Settings: Extend Fastcharge implementation [2/3]
+b28f8fb4a77 Settings: LineageFastCharge: Guard it via overlay
+ab92a5cd06e Settings: Add FastCharge preference into Battery settings
+60296e5ed90 Settings: Use marketname for App Aspect Ratio summary
+853f6502820 Remove Terminal from settings
+adedd23ec42 Hide unavailable battery info
+6faf48a4a79 Make battery cycle count configurable and disable it by default
+1ca58eddbae Settings: Allow user to select low power refresh rate [2/2]
+8111969efed Settings: Fix dependency key for scroll_fling_haptic_feedback
+c5941874158 fixup! Settings: Hide ADB and developer setting enable status [2/2]
+7ad61367fae fixup! Settings: Improve force fullscreen settings fragment
+fac898bd772 Settings: Introduce new refresh rate selector page
+c726936dc8c Make battery info configurable and enable it by default
+47957403933 BatteryStateDatabase: Set exportSchema to false
+e83801b00b1 Also disable switch for "Allow background usage"
+666ddb7d632 Settings: Remove partial screenshot related code
+5e7301a6cb3 add option to always randomize MAC
+2026f347fe5 use 2021-01-01 as minimum battery date
+f400efba5f3 enable "About phone -> Battery information" screen
+76f1ffa02f8 Handle mobile data on internet page during setup
+c69b0149c5d Settings: Restart SystemUI on resolution change
+c05b434c23f Settings: Fix total RAM calculation
+08981736245 FingerprintSettings: Add proximity check awareness if supported
+bfb37205d05 Settings: Phone ringtone setting for Multi SIM device [2/3]
+97830d1c074 Settings: deviceinfo: Extend Battery info page
+76c4f9d07a9 Settings: Always restore keyChordPowerVolumeUp to mute...
+eda8f7eecce Settings: Add userRestriction for auto brightness
+7f8bd3fa098 Settings: Gesture nav: Add back launch menu action
+91a65adcb0a Settings: Gesture nav: Add go forward action
+666516722b1 Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+396f773fb75 Settings: Gestures nav: Add back show recents action
+e902f1f105a Settings: Gesture nav: Remove timeout setting
+5c8cdb0972e Settings: ScreenResolutionFragment: Restart SystemUI on res change
+d8960b607df fuelgauge: Hide screen time since last full charge if not valid
+1f5a3e40b90 DataProcessor: Do not skip and replace screen on component with screen on time
+e7341b7e7f7 Settings: Add back battery and notification lights settings
+957e53ad69e Settings: Battery light: 100% charged level (2/2)
+6c7c35758ef Implement notification light settings
+ba402f6ffc9 ChooseLockPassword: Don't uncheck auto confirm above minimum length
+54e3bd841ea ChooseLockPassword: Decrease minimum pin length for auto confirm
+1d4c5e46153 Settings: Adapt Evolver fragment paths
+5205211b198 Settings: Allow extended/"L" back swipe to trigger actions/app/activities [2/2]
+c190be9280c Settings: Add optional haptic feedback on scrolling with fling gesture [2/2]
+ba9e07d43f8 QuickSettings: Add Haptic Feedback to tiles [2/2]
+de324679750 Settings: Add optional haptic feedback to volume panel [2/2]
+e71dcbb2307 Settings: Guard brightness slider haptic by setting [2/2]
+36cd679f246 Settings: Incall vibration option [3/3]
+da03c4259be Settings: Add misc haptics category
+a851bd89971 Settings: Allow customizing volume stream steps [2/3]
+bf15bbf750e Settings: Add a toggle for High touch polling rate
+ed0c70345e8 Settings: Hide Flashlight
+a44727503cb Settings: Add lockscreen rotation as an optional rotation setting
+e7ec9b63377 Add toggle to enable ADB root
+868a0209ce9 Hide fingerprint settings help if URL is empty
+34f6c5e32d7 Settings: Improve protected sensitive info in about phone
+f3fd1391b95 Settings: Import CustomHapticPreferenceController
+4306185751d Settings: Extend showing Ambient instead of fully waking to single tap gesture [2/2]
+74883454319 Settings: Allow showing Ambient instead of fully waking [2/2]
+9c43022a82a Settings: Introduce AutoDimService [2/2]
+0a3298eb26d Settings: Allow to quickly open Running Services from meminfo view
+669bafaf65b Add Face Unlock with ParanoidSense
+485a4675dd5 Settings: Add setup UI for minimum delay between an app's notification sounds
+935e39c688e Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+9d7ae16eec5 SystemNavigationPreferenceController: Only show gestures if navbar visible
+4ae7969ac0d Settings: Declare an activity for WirelessDebuggingFragment
+92c1deb1044 Settings: Extend protect sensitive info to MAC [2/2]
+6d468c24fde Settings: Allow toggling floating rotation button [2/2]
+5f4b1b3dc11 Settings: Allow toggling NFC sounds [3/3]
+effdb89128d Settings: Allow disabling color inversion support [2/2]
+33d184ec02f Settings: disable all bugreport settings
+609d5b35c73 Settings: Import ic_settings_backup_restore.xml removed from main Settings
+d182fb9b81c Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+fb964ff3e2a display: Add custom screen resolution setting
+b6236e80576 Settings: Introduce automated DC Dimming [2/3]
+8983f1dc860 Settings: Add proximity check on wake preference
+f13e7ca591d Settings: Battery charge warning [2/2]
+26ad3046466 Settings: Add icon for 'WiFi cellular data fallback'
+1e0e5eff6cf Settings: Add icon for 'WiFi direct'
+7001ff76f3b Settings: Add icon for WiFi -> Install certificates
+b03ca266123 Settings: Add icon for 'WiFi timeout'
+7b860dd3f36 PreventRingingParentPreferenceController: Refactor summary generation
+c215ab51279 Settings: Choose which ringer modes to cycle with the gesture [2/2]
+811fcc54ab3 Settings: Gestures: Add option to cycle through ringer modes [2/2]
+2929753d750 Settings: Introduce automated Sleep Mode [2/2]
+99df2026c85 Settings: Allow disabling clipboard overlay [2/2]
+f85541d7822 Settings: add option to enable AOD on charging only [2/2]
+799f887e89f Settings: Change back gesture height intervals
+0154546226a display: Import screen resolution from cheetah stock
+bcae1eed23e Settings: Fix potential NPE in WifiTetherSecurityPreferenceController
+83a2f6cc6b1 Global VPN feature [2/2]
+58a8d2545d5 Settings: add a disclaimer for our imp for per-app volume
+fde8b2762cb Settings: buttons text should no longer be allCaps
+8c332bf804c Settings: Show me more than 4 items in the menus!
+df7d17feaf8 Notification log improvements
+1b75cebc499 Settings: Add preference for one shot auto-brightness
+bf4ed91dcd4 Settings: Show single-touch wakeup setting on rear & front fps devices
+fee7a7566e3 Hide SFPS wakeup setting when it's not supported
+1358ea12428 ChargingControl: Don't index settings if it is not supported
+f69a213ce63 Settings: Add charging control preferences
+8ed46e09a88 Settings: Remove dividers in Network & Internet
+16c4a7dabf8 Wi-Fi timeout feature
+cf7d0c19660 Settings: Let clone apps preference always be available
+6516ffd3655 Settings: DoubleTapGesture: Use new material-you illustration preference
+f57538d2b49 Settings: Double tap to trigger doze [2/2]
+6cc9c3427ba Settings: Add missing icon for media output
+7c21d217bcc Settings: Remove IME space under keyboard feature [2/2]
+9e1b8e70498 Settings: Add developer setting to set the default GPU renderer.
+d80d9363372 Fix long click intent for Smart Pixels tile [2/2]
+84b9915b0d7 Settings: Allow Configuring Navbar Radius [2/2]
+4681950d105 Optional haptic feedback on back gesture [2/2]
+3f9e224a416 Allow to hide arrow for back gesture [2/2]
+1e9298b8261 Allow changing back gesture height [2/2]
+205de7819cd Allow changing the length of gesture navbar [2/2]
+6cc7617bb2c Settings: Implement hide gestural navigation hint bar
+f7352766492 Settings: Add hotspot setting to allow VPN upstreams [2/3]
+4894fe06830 Settings: Long press power button to toggle flashlight [2/2]
+1001e181d91 AppVolumeSlice: Allow querying icon of apps installed by any user
+84b995ea067 Settings: support per-app volume [3/3]
+c411809df3a Settings: Introduce Smart Pause [2/2]
+61b04d2a4cd Settings: Custom vibration pattern per notification channel [2/3]
+7ff441cde80 Settings: Move custom vib pattern to its own preference
+34ef6d19fdb Settings: Follow new ringtone vibration patterns
+ce99408bd35 Settings: Preview ringtone vibration pattern
+a670cd9e36f Settings: Allow choosing a custom vibration pattern [3/3]
+25474c5cd8b Settings: Add vibration patterns from OOS [3/4]
+6f52e2c4053 Settings: Add a toggle to force LTE_CA
+6eb639d175e Settings: Add back increasing ring feature (2/2).
+78fb358bc82 Add deep sleep preference controller [2/2]
+df5f20f3883 Settings: Add three-fingers-swipe to screenshot [2/2]
+38c2fb45605 Settings: allow disable of screenshot shutter sound [2/2]
+0e469743da8 Settings: Add more DNS providers
+5886b30f547 Settings: Add AdGuard DNS as a private DNS Provider
+d0ace84ee38 Settings: Add Cloudflare DNS as a private DNS provider
+7073fed7a00 Settings: Disable automatic system server heap dumps by default
+65b71b7cab0 Settings: Add a preference to battery optimization page
+a1b96bed603 Settings: res: Import screen_resolution_* drawables from SettingsGoogle
+f324e9ed9c6 Settings: Fix up panel theme and layout
+0dbf1b11d9f Settings: Follow navbar color in base
+27f56150795 Settings: Use font configs instead fonts directly
+8b91abe2802 Settings: make sure Wifi exists before adding controllers
+f05348dca04 Settings: display: Add wake on plug switch
+b0f7495a7f0 Settings: Network setup UI changes for SUW
+2780f8fdbf4 Settings: Forward port pattern visibility settings (2/2)
+93618fc892f Settings: Forward port lock pattern grid size (2/2)
+241c94cfe43 Settings: Add option to scramble pin layout when unlocking (1/2).
+e72aa6cbecd Settings: Fix the failing strings
+868051c941c Don't reset A2DP offload when disabling developer settings
+cda855d834b Settings: Display: Add High Touch Polling Rate Support
+021e22c7d54 Settings: Add high touch sensitivity and touchscreen hovering toggles
+a30c621b376 Settings: Changes for LiveDisplay
+274cbd4d7e5 Settings: Match contextual card dimensions with search bar
+e017bd808d0 Settings: Fix restore default apn dialog sometimes not dismissed.
+1728b625160 Settings: Desktop backup password: Tint buttons to match system theme
+5ff8d3439b5 Settings: Update configs for SettingsIntelligenceGoogle
+5ea02be5987 Settings: fix typo in settings namespace for qr scanner on ls
+b4dda7fbb37 Settings: refactor hardcoded radius of ActionPrimaryButton to resource
+3080eb31514 Settings: Adjust gesture navigation settings title
+52f2ad78b26 Settings: Add missing summary for Display size and text
+089d494d336 Settings: use mIsBatteryPresent for visibility of top level battery setting
+22ee708b701 Settings: dont disable ls device controls based on secure lock
+c21a5735319 Settings: Update all classes which inherit from TogglePreferenceController (12.1.0_r1)
+2cc5e458a34 Settings: Use font configs instead fonts directly
+8ab8ea2d399 Settings: check wifi direct feature for showing preferences
+197a770b571 NightDisplay Settings: Use List Preference for NightLight settings
+2f1ea44b2d2 Hide the "Show the vibrate icon in the Status Bar" setting
+af574dfafaf Settings: Move blur toggle to Display options.
+2454416f6ca Settings: move Extra Dim feature to display
+87ab9a6b57f Settings: Make overlays persistent across reboots
+0fbc0917f19 Settings: Improve OverlayCategoryPreferenceController for icon packs
+327f4b387ac Settings: fix rest of the edit menu icon tint
+cd19fbc3d93 Settings: Fix loading iconpack-based Wellbeing icon
+03c68eda00a Settings: Fix NPE on isUdfps
+c7c68ec6d6b Remove empty Security status header
+a5d88e83e61 Settings: Update some lottie animations
+8c4a767187e Settings: Update settings animations
+4ff1f500381 Settings: import missing lottie animations
+ee90d5d44bd Settings: Disable Storage Manager.
+6036e64531e Settings: Add missing android title for top_level_settings
+6ef73a602e2 Drawables: Dark mode support for app installation restriction icon
+7b5d7654d4f WifiDisplaySettings: Fix some NPE
+0507d20d36f Settings: Hardcode moduleProvider to com.google.android.modulemetadata.
+c88e19bd232 Settings: stop logspill from ProcessStats
+106b82a5b22 Settings: Whitelist WRITE_DEVICE_CONFIG permission
+364321d278a Settings: Drop custom preferenceFragmentCompatStyle
+9d7f5187740 Settings: OverlayCategoryPreferenceController: Sort overlays by name
+7d9b769acf0 Settings: Fix invalid private DNS help text if URI is missing
+70248b1cb42 Settings: Use MD2 icon for Playstore
+0232cd0c03d Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+0f0e53b09ec Disable notification channel warnings by default
+cb32e1bcb59 Expose the notification log
+a0c1debfcfb Add back arrow to Desktop backup password
+e16745ab8d8 Settings: Fix tint on newly added private VPN and mobile plan icons
+0b74173468a Settings: Update mobile plan and private dns icons
+5ad8c992412 Settings: use Glif themed button bar
+8110b5dfe6a Settings: default to GlifV3Theme
+7f79a64795f Settings: Import SettingsGoogle animations from UP1A.231005.007.A1
+5fe29fcba3a Settings: Allow toggling screen off fod [2/2]
+f071fd3b95c Settings: Make google's battery widget work
+a86b071ff10 BatteryPercentagePreferenceController: Force hide for all devices
+46a099580c1 development: Enable force resizable activities by default
+bf5ceb62d24 development: Enable freeform windows by default
+b370debf3c9 Settings: Add location indicators toggle to privacy control settings
+c1ea609dba4 Link location indicators toggle in privacy settings
+18a9600a060 Settings: Allow editing all APNs and APN types
+d4998e92f3c Settings: Avoid enforcing weird backgrounds
+4c946c8bf92 Settings: Move Vo5G toggle right below VoLTE
+7d250df9908 Port "Battery Usage Alerts" feature from factory images
+f0b382ee959 FingerprintEnroll: Add config for dedicated side mounted fps
+062f75bb63a Settings: Add a preference to battery optimization page
+43ba28cdeff Settings: Improve code for time spent in app
+f0beb2d27c2 AppInfo: Add time spent in app from Wellbeing
+d6c09c512c8 NetworkProviderSettings: Fixup uninitialized mWifiManager
+5e6371847d7 Settings: Make all user apps cloneable
+8450b4c119d Settings: CutoutForceFullscreen: Query all apps installed by any user [2/2]
+43c93dc0edd Settings: Hide ADB and developer setting enable status [2/2]
+4a1310b99d9 Settings: CutoutForceFullscreen: Add "Show system" menu
+dc3da8a2db7 Settings: Improve force fullscreen settings fragment
+315a25f0004 Settings: Implement cutout force full screen [2/2]
+2706a1083a8 InstalledApp: Hide GooglePlay icon for webapps
+01da7f059fb Settings: Link smallest width options in display settings
+87e255e311c Settings: Long press to copy wifi password
+624b8430f25 Settings: Remove divider from Battery Manager
+93d8acf197e InstalledApp: show link to Google Play
+bee5bf03a4c InstalledAppDetails: fix refreshing storage summary after force stop
+baea49b7cfc Settings: Observe auto brightness mode changes
+01ea2a97678 Change fingerprint strings to be more generic
+0b5c2f5b103 SoftAp: add client manager
+9275d5bca5b Settings: add TextView for summary into SeekBarDialogPreference
+292f4a83147 SoftAp: add Hidden SSID preference
+10938d86642 Settings: Update package details to match S style
+2876743fb2b Settings: Add package name to installed app details
+1d60a5fd0ad Settings: add sim status listener in about phone
+f1055e47efc Settings: Good news, `encryptable=footer` is broken
+b5cbec54704 Settings: Make NetworkScanHelper max search time customizable
+b58acda38e6 Settings: Use ListPreference instead of DropDownPreference
+a237ed14e32 settings: drop divider in dark mode screen
+0d83b954429 Settings: add animation to dark mode preference
+bf6edd83043 Settings: Use List Preference for Dark mode
+48334e895c3 Settings: Allow changing system themes [2/2]
+af2d96e819e Settings: Show/hide TouchGestures preference via res boolean
+e367c4bce28 Settings: Add preference for TouchGestures
+80ab985d50d Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+a5dd65550c0 Settings: AnimationScale: Fix force close when not using english
+f658b707fc2 Settings: Use seekbar to allow setting arbitrary animation values
+44294908e04 Settings: Add missing icons network and internet menu
+a39062e78a1 Settings: Show SoC Model rather than value of ro.board.platform if available
+7df3e99f274 Settings: Align TotalRAMPreferenceController with MemoryUsagePreferenceController from dev settings
+3d58ae48e82 Settings: Expose saved devices fragment via intent
+9453145e8fa FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+d09bb7fb82b Settings: Use AOSP string for side fps enrollment
+8329dd8ba2d fingerprint: Rework enrollment screen
+2605d57f869 fingerprint: hide link icon when there's no link
+a4847ee28a7 Revert "[Wi-Fi] Remove 'Do not validate' option in CA certificate spinner"
+e3067da8fee Settings: Allow using legacy VPN types
+e06cff67c38 get outer NFC preference to listen for changes
+7d154eb6aec Settings: Force disable top level support preference
+ed573ff2fe5 Settings: Check if we have any color modes declared in overlay
+d4fe1326b22 Remove useless USB page header
+c4e6c74982e Settings: Hide unsupported USB modes automatically
+9a6621e4ce8 QS dev tiles: Don't set them to active area
+a79ee7c50bd Remove feedback and bug report stuff
+f91a56c1638 Settings: Remove DSU Loader if unsupported
+cfb8627fec6 Settings: Expose Heads Up settings page
+46a8758fd00 Settings: DevicePicker: Adapt to S style
+ee4325e35a6 Settings: Update Glide library to 4.16.0
+5fbe6439d44 Settings: Add Glide library
+6b11ed3a6d6 Settings: Import RenderingJitter test from FWB [1/2]
+03b4610a7c2 Settings: Integrate The Evolver into Settings
+537fe39e41f Settings: bring back all changes from Build.FINGERPRINT to Build.TIME [4/4]
+9c8dd26fcdf Settings: Add custom pref for devices with custom doze packages
+ae78218f254 Settings: Don't show module version if isn't a date
+98e716438fa Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+4fbc928f750 Settings: Hide radio info if device don't support voice
+22881e8b0ae Settings: Expose radio info (*#*#4636#*#*)
+b8a21874260 Remove the Automatic ota check option but be sure it's disabled
+a01f8a2d89c Settings: Set device name from marketname if available
+62f263826e6 Settings: Add Device codename to Firmware version window
+8933e5a837e Settings: Add Build date entry to Firmware version window
+4d800ecb5dc Settings: Add Evolution X fragment to Firmware version window
+3bfa48c0c78 Expand abbreviation in average memory usage string
+989b57f7bad Settings: Add platform and RAM to Model & Hardware
+1f4edac22b4 Settings: Allow sorting Applications by size
+6fba31bd713 Show user's Google avatar on the homepage
+ad405f22d5e DevelopmentSettings: Remove system update and other prefs
+45bccd5724f Open app when clicking on icon in App Info
+9b65fbc8382 Settings: Toast insulter: Add new insults
+7aa3db3c019 Developer options toast insulter
+35888e53acc Make kernel version clickable
+502b968b605 Settings: Import crowdin translations from A13
+23d7dd64161 Settings: Change kernel preference behavior
+9a01bd6f013 Settings: Show full proc/version information
+c63bd9b07e0 Fix inconsistent USB preference screen title
+c57b55a0190 Enable FeatureFlags on "user" builds too
+ea9f397fe79 Settings: Fix duplicated baseband string on all devices.
+ff08342b27b BasebandVersionPreferenceController: Trim baseband if needed
+
+* Repository: https://github.com/Evolution-X/vendor_certification/commits/refs/heads/udc
+
+aaab3de certification: Set preprocessed: true
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_beyondx/commits/lineage-21.0
+
+38a0d9a beyondx: Update blobs from G977BXXSEHWC2
+
+
+=======================
+     2024/04/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/commits/refs/heads/lineage-21
+
+209e8c8 sepolicy: Exclude debug sepolicies on user build
+
+* Repository: https://github.com/Exynos982x-Evolution-X/android_hardware_samsung/commits/udc
+
+1152d23 ril: sehradiomanager: Restart when RILD died
+e95505b Nuke advanced display and doze
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+9631408 New translations evolution_strings.xml (Ukrainian)
+5ad17073 Evolver: Adapt and clean up for A14 QPR2
+289dd44 New Crowdin updates (#514-#642)
+
+* Repository: https://gitlab.com/someone5678/vendor_microsoft/commits/main
+
+76496d9 microsoft: Update to LA.QSSI.14.0.r1-11100-qssi.0
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e816f72 SystemUIGoogle: Adapt Battery saver QS tile
+
+
+=======================
+     2024/04/23
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/u
+
+0044cf78a libc: allow selectively enabling jemalloc's zero-filling
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+46a312ccdd build: make: use jemalloc by default and allow opt-in to scudo (1/4)
+0bebafb272 fixup! Support generating partial OTAs from extracted target_files
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/u
+
+586c7d97c build: soong: use jemalloc by default and allow opt-in to scudo (2/4)
+56f65176a Revert "Add ability to enable scudo-free 32-bit libc variant."
+32bedce41 check_boot_jars: Extend to all OnePlus packages
+ca6826e25 soong: config.go: Always use en_US.UTF-8 for LC_MESSAGES
+e04a99285 soong: Allow more qcom components to be allowed in check_boot_jars
+
+* Repository: https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/commits/refs/heads/lineage-21
+
+4428c66 basic: non_plat: Allow `update_engine` to write to `logo` partition
+
+* Repository: https://github.com/yaap/external_jemalloc_new/commits/fourteen
+
+6eec05c5 drop workflows
+da4a5eec Android.bp: ignore unused variables
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+e2de5e0dd1bd fixup! VolumeDialogImpl: Handle cases where media controller is not available
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/u
+
+748eba12e sensors: Do not limit aidl-multihal visibility
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+6d0b8f3 Evolver: Allow turning on WiFi/Bluetooth when pressing the tiles [2/2]
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/u
+
+95886bf65 debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+a5fcd038 apns-conf: update default APN for Vodafone IN mcc="405" mnc="66"
+8c07b711 config: Don't explicitly include updatable_apex.mk
+986ebeda apns-conf: Update Digi Mobil mcc="226" mnc="05"
+9b726ac1 apns-conf: Update Vodafone RO mcc="226" mnc="01"
+2d4c7222 apn: Add "Samantel" and "Shatelmobile" APNs
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_beyond0lte/commits/lineage-21.0
+
+bd019de beyond0lte: Update blobs from G970FXXSGHWC2
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_beyond1lte/commits/lineage-21.0
+
+f23fb02 beyond1lte: Update blobs from G973FXXSGHWC2
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_beyond2lte/commits/lineage-21.0
+
+2bdf0c0 beyond2lte: Update blobs from G975FXXSGHWC2
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_beyondx/commits/lineage-21.0
+
+c8a5aef beyondx: Update blobs from G977BXXSEHWC1
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_d1/commits/lineage-21.0
+
+335c5ab d1: Update blobs from N970FXXS9HWHA
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_d2s/commits/lineage-21.0
+
+6ee2464 d2s: Update blobs from N975FXXS9HWHA
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_d2x/commits/lineage-21.0
+
+35cbb86 d2x: Update blobs from N976BXXS9HWHB
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_exynos9820-common/commits/lineage-21.0
+
+59d972b exynos9820-common: Update blobs from N975FXXS9HWHA
+
+* Repository: https://github.com/linux4-bringup-priv/android_vendor_samsung_f62/commits/lineage-21.0
+
+aea0c13 f62: Update blobs from E625FDDS5CXA3
+
+
+=======================
+     2024/04/22
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+d7e709c67 legacy: vendor: Allow location to read wifi_hal_prop
+2f2d9b8b1 legacy: Allow NFC HAL to access vendor data folder
+8b4e9c66b legacy: Resolve vendor.qti.hardware.mwqemadapter denials
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+1a98734d9 Revert "sdm: Conditionally revert "sdm: Implement ‘Null Display’ in SDM core""
+8ad695185 Merge tag 'DISPLAY.LA.3.0.r1-10700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into HEAD
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+e17e29e8d9c9 Merge branch 'android-4.14-phoenix' of https://github.com/PhoenixKernel/linux into lineage-21
+ff3d16157cbd fs: Remove oneplus erofs
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+c41ef82d vendor: Disable debugs infos on user build only
+72268b4a config: Reduce system server verbosity
+0d69b104 vars: Update qcom tags
+214e1446 config: Enable settings large screen optimization for tablets
+
+
+=======================
+     2024/04/21
+=======================
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+f64e498aab91 BACKPORT: kasan: use error_report_end tracepoint
+501064628b82 BACKPORT: panic: use error_report_end tracepoint on warnings
+c7b848fe1c70 tracing: add error_report_end trace point
+
+
+=======================
+     2024/04/20
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/u
+
+38b7062b1 bionic: use jemalloc by default and allow opt-in to scudo (3/3)
+c9aa36a7b Revert "Add ability to build scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-21.0
+
+7f068d5c Merge tag 'LA.QSSI.14.0.r1-14000-qssi.0' into staging/lineage-21.0_merge-LA.QSSI.14.0.r1-14000-qssi.0
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+82710e972 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-21.0-caf-sm8550
+
+1fbb5532 Merge tag 'AUDIO.LA.8.0.r1-10200-KAILUA.0' into staging/lineage-21.0_merge-AUDIO.LA.8.0.r1-10200-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8550
+
+1a31a71f3 Merge tag 'AUDIO.LA.8.0.r1-10200-KAILUA.0' into staging/lineage-21.0_merge-AUDIO.LA.8.0.r1-10200-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commits/lineage-21.0-caf-sm8550
+
+f98cbc3 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-21.0
+
+1f64870 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+af4fc46bb6ae binder: signal epoll threads of self-work
+612dff1f8d23 BACKPORT: android: removed duplicate linux/errno
+0ce7330afe11 BACKPORT: android: binder: binderfs.c: removed asm-generic/errno-base.h
+0dea47a13844 android: binder: fix a kernel-doc enum warning
+2fd4028b65bd binder: remove extern from function prototypes
+38eb0e8b3916 binder: fix trivial typo of binder_free_buf_locked()
+e4f390b6ec1a binder: fix unused alloc->free_async_space
+4af69f996dfb binderfs: fix typo in binderfs.c
+ea1349367ce4 binder: fix memory leaks of spam and pending work
+d3b4a582829d BACKPORT: binderfs: Drop unused #include <linux/radix-tree.h>
+638860724f05 android: fix W=1 kernel-doc warnings
+af1f98436b8b BACKPORT: binder: return pending info for frozen async txns
+5be7e3cd37d4 binder: remove unneeded size check code
+f7338e12607e binderfs: remove unused INTSTRLEN macro
+5493a644b070 binder: remove unused binder_alloc->buffer_free
+c197d159ed79 binder: fix trivial kernel-doc typo
+83838b06c316 BACKPORT: Binder: add TF_UPDATE_TXN to replace outdated txn
+00b4e61bb314 ANDROID: GKI: enable CONFIG_EROFS_FS=y
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-21.0
+
+03b3dd6e Merge tag 'LA.QSSI.14.0.r1-14000-qssi.0' into staging/lineage-21.0_merge-LA.QSSI.14.0.r1-14000-qssi.0
+
+
+=======================
+     2024/04/19
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+93dedf36b927 core: Enable freeform/multiple windows feature by default
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+7c9eb6df0760 erofs: Add a bunch of missing includes
+c9e20919c63e BACKPORT: erofs: fix lz4 inplace decompression
+64893242da3c UPSTREAM: erofs: fix an error code in z_erofs_init_zip_subsystem()
+6684ccdf0fc5 BACKPORT: erofs: add per-cpu threads for decompression as an option
+6c1a1867a471 sched: Provide sched_set_fifo()
+a356f9372092 sched: Provide sched_setattr_nocheck()
+b6ef6542c599 Revert "erofs: add REQ_RAHEAD flag to readahead requests"
+8a1634c2a4b2 erofs: Switch to attach/detach_page_private
+5ac54ad605a9 include/linux/pagemap.h: introduce attach/detach_page_private
+930313669fbf BACKPORT: erofs: fix use-after-free of on-stack io[]
+cff6dc98a3d0 MAINTAINERS: erofs: update my email address
+b3d81d3b6a31 MAINTAINERS: erofs: complete sub-entries for erofs
+dd0e4c8b1313 erofs: move erofs out of staging
+800c911781e3 staging: erofs: turn cache strategies into mount options
+ae64f1736eb8 staging: erofs: kill CONFIG_EROFS_FS_USE_VM_MAP_RAM
+75e9d64f1682 staging: erofs: support IO read error injection
+2516db589e7c staging: erofs: complete POSIX ACL support
+a115d5fbe015 staging: erofs: add document
+8f4f5e90522c erofs: ensure that the post-EOF tails are all zeroed
+0c197e066698 erofs: fix compact 4B support for 16k block size
+54de7166d293 erofs: avoid infinite loop in z_erofs_do_read_page() when reading beyond EOF
+47ac8f16b1c6 erofs: fix potential overflow calculating xattr_isize
+35a9a2902fdc erofs: stop parsing non-compact HEAD index if clusterofs is invalid
+29dea1cccc3e erofs: avoid consecutive detection for Highmem memory
+05a5d2490349 erofs: fix 1 lcluster-sized pcluster for big pcluster
+fb36196d2969 erofs: enable big pcluster feature
+bb337b4a2aff erofs: support decompress big pcluster for lz4 backend
+9ba20d4d6b50 erofs: support parsing big pcluster compact indexes
+081f5276ab6c erofs: support parsing big pcluster compress indexes
+a4498d80e43b erofs: adjust per-CPU buffers according to max_pclusterblks
+3a0effe4ac6c erofs: add big physical cluster definition
+99df33273148 erofs: fix up inplace I/O pointer for big pcluster
+230b684f84cf erofs: introduce physical cluster slab pools
+7399446f0c58 erofs: introduce multipage per-CPU buffers
+69a052e4e66a erofs: reserve physical_clusterbits[]
+23569ceb1bec erofs: Clean up spelling mistakes found in fs/erofs
+c9931fb5f2b3 erofs: add on-disk compression configurations
+ba147efc3c67 erofs: introduce on-disk lz4 fs configurations
+b67eefaba275 erofs: support adjust lz4 history window size
+5b86686b1088 erofs: introduce erofs_sb_has_xxx() helpers
+a8fd3410fe00 erofs: don't use erofs_map_blocks() any more
+9e6f88439ba0 erofs: complete a missing case for inplace I/O
+b9db22861c64 erofs: use sync decompression for atomic contexts only
+d14d8e896399 erofs: use workqueue decompression for atomic contexts only
+4932c46211a1 erofs: avoid memory allocation failure during rolling decompression
+9ffaf96e56e6 erofs: force inplace I/O under low memory scenario
+b85a8d4868fa erofs: simplify try_to_claim_pcluster()
+dc16f0f1d9e6 erofs: insert to managed cache after adding to pcl
+3f5994d7a7b1 erofs: get rid of magical Z_EROFS_MAPPING_STAGING
+e9d541c1aa09 erofs: remove a void EROFS_VERSION macro set in Makefile
+1765046b3c2f erofs: fix unsafe pagevec reuse of hooked pclusters
+91963f659107 erofs: remove the occupied parameter from z_erofs_pagevec_enqueue()
+7de843b16d4a erofs: don't trigger WARN() when decompression fails
+d66d9c0a5199 erofs: sync up with kernel 5.10
+51bb5df69ca8 lib/lz4: explicitly support in-place decompression
+9a0e4da69edb lz4: fix kernel decompression speed
+f05fcdfd77c0 lib/lz4: update LZ4 decompressor module
+bbfd8c94c2f9 xarray: add the xa_lock to the radix_tree_root
+2d3951b5f67b idr: Add idr_alloc_u32 helper
+f480e0c4c07f fscache: use appropriate radix tree accessors
+3c5387ea144c locking/barriers: Introduce smp_cond_load_relaxed() and atomic_cond_read_relaxed()
+02c1e09ac15e fs: export generic_file_buffered_read()
+47bef24d7ac6 locking/atomic: Add atomic_cond_read_acquire()
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+c9d50d1 Aperture: Hide camera mode highlight button in single capture mode too
+cb72afd Aperture: Add tint to capture preview buttons
+
+* Repository: https://git.mainlining.org/EvolutionX/packages_modules_Connectivity/commits/refs/heads/udc
+
+b76fb25118 DnsUtils: Use Cloudflare DNS instead of Google DNS
+0140ccb937 NetworkDiagnostics: Use Cloudflare DNS instead of Google DNS
+08bd70118f Tethering: Use Cloudflare DNS instead of Google DNS
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/u
+
+0a7e1d449 Hide "Use precise location" for unsupported apps
+
+
+=======================
+     2024/04/18
+=======================
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+4bd7140d0354 ANDROID: usb: gadget: configfs: fix compiler warning
+929a40810156 ANDROID: dm-bow: Drop SECTOR_SIZE redefinition
+d9f8e18d2b3d Merge branch 'linux-4.14.y' of https://github.com/openela/kernel-lts into android-4.14-phoenix
+c33c221f2248 LTS: Update to 4.14.343
+
+
+=======================
+     2024/04/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+b5f97aef22da base: ViewConfiguration: synchronize access to sConfigurations array
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+3f81c30ae458 crypto: af_alg - Work around empty control messages without MSG_MORE
+2939b898498d crypto: af_alg - Fix regression on empty requests
+d49e4f3714a9 spi: spi-mt65xx: Fix NULL pointer access in interrupt handler
+ac6c533f13a4 net/bnx2x: Prevent access to a freed page in page_pool
+b3f50f65706d hsr: Handle failures in module init
+e2ef56dd89fd rds: introduce acquire/release ordering in acquire/release_in_xmit()
+f185d5434353 hsr: Fix uninit-value access in hsr_get_node()
+c412392d4e52 net: hsr: fix placement of logical operator in a multi-line statement
+f950312d06f3 usb: gadget: net2272: Use irqflags in the call to net2272_probe_fin
+5bc6fb9dd865 staging: greybus: fix get_channel_from_mode() failure path
+05809dc60c61 serial: 8250_exar: Don't remove GPIO device on suspend
+251fdf12a591 rtc: mt6397: select IRQ_DOMAIN instead of depending on it
+5fa039f25b04 rtc: mediatek: enhance the description for MediaTek PMIC based RTC
+2ba503c76ed0 tty: serial: samsung: fix tx_empty() to return TIOCSER_TEMT
+5f8e15a6c978 serial: max310x: fix syntax error in IRQ error message
+ac71f4414591 clk: qcom: gdsc: Add support to update GDSC transition delay
+43e88e13e5e8 NFS: Fix an off by one in root_nfs_cat()
+dd5627de25e1 net: sunrpc: Fix an off by one in rpc_sockaddr2uaddr()
+826d2a5f4af8 scsi: bfa: Fix function pointer type mismatch for hcb_qe->cbfn
+ee504736ec79 scsi: csiostor: Avoid function pointer casts
+684d0dfc0167 ALSA: usb-audio: Stop parsing channels bits when all channels are found.
+1455216df918 sparc32: Fix section mismatch in leon_pci_grpci
+3f2fe45a95a3 backlight: lp8788: Fully initialize backlight_properties during probe
+2f286fb34ca7 backlight: lm3639: Fully initialize backlight_properties during probe
+80b386048fb4 backlight: da9052: Fully initialize backlight_properties during probe
+d0ca047e07a3 backlight: lm3630a: Don't set bl->props.brightness in get_brightness
+e50c0ec386b6 backlight: lm3630a: Initialize backlight_properties on init
+138ea96e89f7 powerpc/embedded6xx: Fix no previous prototype for avr_uart_send() etc.
+1785997d8b48 powerpc/hv-gpci: Fix the H_GET_PERF_COUNTER_INFO hcall return value checks
+f754e826a42f drm/mediatek: Fix a null pointer crash in mtk_drm_crtc_finish_page_flip
+d692197c4290 media: go7007: fix a memleak in go7007_load_encoder
+810b8a9fe3e1 media: dvb-frontends: avoid stack overflow warnings with clang
+6251ccc9fe18 media: pvrusb2: fix uaf in pvr2_context_set_notify
+d7fb1c3d480a drm/amdgpu: Fix missing break in ATOM_ARG_IMM Case of atom_get_src_int()
+1b84c12ebacc mtd: rawnand: lpc32xx_mlc: fix irq handler prototype
+0147d403e14f crypto: arm/sha - fix function cast warnings
+7fc8137190a1 crypto: arm - Rename functions to avoid conflict with crypto/sha256.h
+cc17862516e0 mfd: syscon: Call of_node_put() only when of_parse_phandle() takes a ref
+964b1a6dfa95 drm/tegra: put drm_gem_object ref on error in tegra_fb_create
+2c4e4f364fc9 clk: hisilicon: hi3519: Release the correct number of gates in hi3519_clk_unregister()
+8bfb9ffc388b PCI: Mark 3ware-9650SE Root Port Extended Tags as broken
+bbb93685c7c6 drm/mediatek: dsi: Fix DSI RGB666 formats and definitions
+ef1a77adc95f media: pvrusb2: fix pvr2_stream_callback casts
+0203c9b23b47 media: go7007: add check of return value of go7007_read_addr()
+9075faa224b8 ALSA: seq: fix function cast warnings
+38f97031f0e5 drm/radeon/ni: Fix wrong firmware size logging in ni_init_microcode()
+d85a1e5fdc93 perf thread_map: Free strlist on normal path in thread_map__new_by_tid_str()
+9b7a96f32e37 quota: Fix rcu annotations of inode dquot pointers
+b2b5f36baf47 quota: Fix potential NULL pointer dereference
+ba23e07d50c3 quota: simplify drop_dquot_ref()
+92b446b2b7df quota: check time limit when back out space/inode change
+34b20f6e467f fs/quota: erase unused but set variable warning
+045db5c9471c quota: code cleanup for __dquot_alloc_space()
+3acb0bf9b016 clk: qcom: reset: Ensure write completion on reset de/assertion
+fb58c616f8d5 clk: qcom: reset: Commonize the de/assert functions
+7091467f8cf4 clk: qcom: reset: support resetting multiple bits
+a9c53a71d510 clk: qcom: reset: Allow specifying custom reset delay
+dec38a328d1c media: edia: dvbdev: fix a use-after-free
+8f649cb42cc0 media: dvb-core: Fix use-after-free due to race at dvb_register_device()
+0ae7184adc0e media: dvbdev: convert DVB device types into an enum
+83a32ee58eda media: dvbdev: fix error logic at dvb_register_device()
+5ace531d9048 media: dvbdev: Fix memleak in dvb_register_device
+88b9134f0e55 media: media/dvb: Use kmemdup rather than duplicating its implementation
+08af260a5bc1 media: dvbdev: remove double-unlock
+fdec9e17f52e media: v4l2-tpg: fix some memleaks in tpg_alloc
+e2bc2e2b68b3 media: em28xx: annotate unchecked call to media_device_register()
+f37d112202ea media: tc358743: register v4l2 async device only after successful setup
+36ac37d23799 drm: Don't treat 0 as -1 in drm_fixp2int_ceil
+9514fc65463c drm/rockchip: inno_hdmi: Fix video timing
+8f0f744ebf00 drm/tegra: dsi: Fix missing pm_runtime_disable() in the error handling path of tegra_dsi_probe()
+beef7ea1764b drm/tegra: dsi: Fix some error handling paths in tegra_dsi_probe()
+a7f31893877b drm/tegra: dsi: Make use of the helper function dev_err_probe()
+a1d6e2d545ae gpu: host1x: mipi: Update tegra_mipi_request() to be node based
+c5b100db7c77 drm/tegra: dsi: Add missing check for of_find_device_by_node
+d8348562b9ba dm: call the resume method on internal suspend
+3d651f489f21 dm raid: fix false positive for requeue needed during reshape
+fa19944cf14a net/x25: fix incorrect parameter validation in the x25_getsockopt() function
+59a4e1ed1e12 net: kcm: fix incorrect parameter validation in the kcm_getsockopt) function
+5cfa0a58e61d udp: fix incorrect parameter validation in the udp_lib_getsockopt() function
+a0e4e51da39f l2tp: fix incorrect parameter validation in the pppol2tp_getsockopt() function
+9676e9447d12 tcp: fix incorrect parameter validation in the do_tcp_getsockopt() function
+efa596b07745 ipv6: fib6_rules: flush route cache when rule is changed
+c7eb664d0ae8 bpf: Fix stackmap overflow check on 32-bit arches
+5b157b57a27d bpf: Fix hashtab overflow check on 32-bit arches
+aca6a0b117cf sr9800: Add check for usbnet_get_endpoints
+224f6971eb2b Bluetooth: hci_core: Fix possible buffer overflow
+e63d5f1f3f5f Bluetooth: Remove superfluous call to hci_conn_check_pending()
+2fe7a8cde6d1 igb: Fix missing time sync events
+7344a5ae74cc igb: move PEROUT and EXTTS isr logic to separate functions
+4cb02a03a5ed mmc: wmt-sdmmc: remove an incorrect release_mem_region() call in the .remove function
+98dd836d4d90 SUNRPC: fix some memleaks in gssx_dec_option_array
+f1a4dbde4356 x86, relocs: Ignore relocations in .notes section
+ff0607489556 ACPI: scan: Fix device check notification handling
+a8674f8f32d3 ARM: dts: arm: realview: Fix development chip ROM compatible value
+7f3fb7d44b2c wifi: brcmsmac: avoid function pointer casts
+cff340eed43a iommu/amd: Mark interrupt as managed
+3ecc22136105 bus: tegra-aconnect: Update dependency to ARCH_TEGRA
+d39f836a2b9e ACPI: processor_idle: Fix memory leak in acpi_processor_power_exit()
+7dbbfcf6db50 wifi: libertas: fix some memleaks in lbs_allocate_cmd_buffer()
+d4a666252ef7 af_unix: Annotate data-race of gc_in_progress in wait_for_unix_gc().
+7e6bdf380249 sock_diag: annotate data-races around sock_diag_handlers[family]
+c4d2af79e423 sock_diag: request _diag module only when the family or proto has been registered
+4b8198ce7bd0 wifi: mwifiex: debugfs: Drop unnecessary error check for debugfs_create_dir()
+14ee0973eab9 wifi: b43: Disable QoS for bcm4331
+13876838c450 wifi: b43: Stop correct queue in DMA worker when QoS is disabled
+73a69fcb66db b43: main: Fix use true/false for bool type
+947b5e0d7e03 wifi: b43: Stop/wake correct queue in PIO Tx path when QoS is disabled
+c6fa41a3cb1d wifi: b43: Stop/wake correct queue in DMA Tx path when QoS is disabled
+0e7ba895f0ec b43: dma: Fix use true/false for bool type variable
+fabbb78782e6 timekeeping: Fix cross-timestamp interpolation for non-x86
+ed6452adf4a6 timekeeping: Fix cross-timestamp interpolation corner case decision
+44b1502cbcf6 timekeeping: Fix cross-timestamp interpolation on counter wrap
+67f0ca2ac39c aoe: fix the potential use-after-free problem in aoecmd_cfg_pkts
+fe9ee4210de1 md: Don't clear MD_CLOSING when the raid is about to stop
+1d018bd5617e md: implement ->set_read_only to hook into BLKROSET processing
+5621bcf7c79c block: add a new set_read_only method
+644ef6ff144c md: switch to ->check_events for media change notifications
+70137872f87a fs/select: rework stack allocation hack for clang
+ce3317e4a966 do_sys_name_to_handle(): use kzalloc() to fix kernel-infoleak
+f63a7bf2dcf7 crypto: algif_aead - Only wake up when ctx->more is zero
+ed2edd721e15 crypto: af_alg - make some functions static
+cacf64e0af45 ASoC: wm8962: Fix up incorrect error message in wm8962_set_fll
+2a2f4e8dfe12 ASoC: wm8962: Enable both SPKOUTR_ENA and SPKOUTL_ENA in mono mode
+6895f6831861 ASoC: wm8962: Enable oscillator if selecting WM8962_FLL_OSC
+243004088d27 Input: gpio_keys_polled - suppress deferred probe error for gpio
+51ec1ed43d0b firewire: core: use long bus reset on gap count error
+b79150eddce9 Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security
+70928e45cbbe scsi: mpt3sas: Prevent sending diag_reset when the controller is ready
+e6d8df74f269 dm-verity, dm-crypt: align "struct bvec_iter" correctly
+e9f9eb0c2d8c block: sed-opal: handle empty atoms when parsing response
+3ded98fc3b97 net/iucv: fix the allocation size of iucv_path_table array
+96405638c5c2 MIPS: Clear Cause.BD in instruction_pointer_set
+f2645f10d789 x86/xen: Add some null pointer checking to smp.c
+5ee8a0e79d41 x86/xen: Fix memory leak in xen_smp_intr_init{_pv}()
+3300a318344f xen/events: only register debug interrupt for 2-level events
+
+
+=======================
+     2024/04/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+229e906dd8 releasetools: Make recovery patch use bsdiff exclusively
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+f51ca5cd096c Integrate Pixel framework hooks and wrappers
+5bac47c9d9c2 [SQUASH] SystemUI: Move to SystemUIGoogle Smartspace impl
+60a4b4d3dc2e SystemUI: AntiFlickerTile: Catch NullPointerException
+d9739392271b SystemUI: Add anti flicker tile
+5bd2859b4020 SystemUI: screenshot: Also post a notification with a preview
+6f1affb2c934 SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+d5fd2ea9f9c7 SystemUI: Fix secondary label alignment on A11 QS UI Style
+4c11fb0463e0 Add required priv-app permissions for SystemUIGoogle
+8768d47ffea7 SystemUI: biometrics: Follow user setting to confirm face unlock
+b4468e396fbd AppLock: Make kotlin libs available only within this module
+b194240ac089 AppLock: Update for kotlin errors
+c0b4c7ea5fe7 AppLock: Allow using face unlock for biometric authentication
+0358a79c1a2d AppLock: Move services to new package
+bd37bc25067f AppLock: Allow locking all apps visible in launcher
+4e700dd8fcf7 AppLock: Update API to hide unprotected apps
+99f95646f5fe base: Introduce app lock [1/4]
+ef76b23c4d48 SystemUI: Fix NPE in VolumeDialogImpl causing system crash
+9c1232f2850b SystemUI: AODTile: This should be a BooleanState tile
+9d8a5cba5e3c PackageInstaller: Remove side padding from the dialog
+998d700c24ab PackageInstaller: show current/new version on sideload
+9e77d92ab052 appwidget: Catch IllegalStateException when retrieving providers profiles
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+aa80d25cfdc0 security: Remove dsms
+93b94e66e1c3 Merge branch 'linux-4.14.y' of https://github.com/openela/kernel-lts into android-4.14-phoenix
+9f461ae2ce06 LTS: Update to 4.14.342
+445850c8fa13 treewide: Kill inputbooster
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+40eac7a Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+08df9fd Update SettingsGoogle resources
+2fd4825 Clean up and update for A14 QPR2
+
+
+=======================
+     2024/04/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/u
+
+1d4db0ed73 Revert "Clear up the obsoleted cascading signal strength polling logic"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b9a0f8b3 Revert "[TMP] config: Disable Pixel-fw"
+
+
+=======================
+     2024/04/14
+=======================
+
+* Repository: https://github.com/linux4-bringup-priv/android_device_samsung_slsi_sepolicy/commits/lineage-21.0
+
+133647c common: Label HIDL RIL interfaces
+
+* Repository: https://github.com/linux4-bringup-priv/android_kernel_samsung_exynos9820/commits/lineage-21.0
+
+f19d6a15935b selftests/vm: fix map_hugetlb length used for testing read and write
+fee13d620a06 selftests/vm: fix display of page size in map_hugetlb
+8d11949c4781 getrusage: use sig->stats_lock rather than lock_task_sighand()
+82f1e0dc48d7 getrusage: use __for_each_thread()
+c048d8254a03 getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+f2348ee837ce getrusage: add the "signal_struct *sig" local variable
+8ddca3d65f8a hv_netvsc: use netif_is_bond_master() instead of open code
+fb847632d0d8 um: allow not setting extra rpaths in the linux binary
+b37d2d9d10c6 selftests: mm: fix map_hugetlb failure on 64K page size systems
+0e37e77f60fe tools/selftest/vm: allow choosing mem size and page size in map_hugetlb
+daa941d9ed63 netrom: Fix data-races around sysctl_net_busy_read
+3c574b4ac951 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+4851e4321fdf netrom: Fix a data-race around sysctl_netrom_routing_control
+0a8e233837a2 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+3f661371119e netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+943942802104 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+9da1d2a1e668 netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+6e9e490c1c0f netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+75af2f874a60 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+3babe0b373c8 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+5993b0635772 netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+7bab6671e4d5 netrom: Fix a data-race around sysctl_netrom_default_path_quality
+1c31b4059c94 netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+74a4c76141e7 netfilter: nf_ct_h323: Extend nf_h323_error_boundary to work on bits as well
+5ee983c52f6c netfilter: nf_ct_h323: Convert CHECK_BOUND macro to function
+0025d996dd7b netfilter: nf_ct_h323: Out Of Bound Read in Netfilter Conntrack
+08230f3ca93b netfilter: nf_conntrack_h323: Remove typedef struct
+3b1e13eb6c7b geneve: make sure to pull inner header in geneve_rx()
+46ae53df59e8 net: geneve: modify IP header check in geneve6_xmit_skb and geneve_xmit_skb
+de6f8690a982 net: move definition of pcpu_lstats to header file
+303363939066 net: lan78xx: fix runtime PM count underflow on link stop
+cb2fabebb54f lan78xx: Fix race conditions in suspend/resume handling
+c2688f303bad lan78xx: Fix partial packet errors on suspend/resume
+b70394861f10 lan78xx: Add missing return code checks
+f6cbd3c0c451 lan78xx: Fix white space and style issues
+e2ad089a70e5 net: usb: lan78xx: Remove lots of set but unused 'ret' variables
+b64278fd3d49 net: usb: lan78xx: Disable interrupts before calling generic_handle_irq()
+60e32c8d4c6b net: lan78xx: Allow for VLAN headers in timeout calcs
+683e08ff6ef0 ip: validate header length on virtual device xmit
+
+
